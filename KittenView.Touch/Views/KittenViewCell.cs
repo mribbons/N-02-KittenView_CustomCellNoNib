@@ -21,11 +21,11 @@ namespace KittenView.Touch.Views
 		public KittenViewCell(IntPtr handle)
 			: base(handle)
 		{
-			label1 = new UILabel(new RectangleF(10, 50, 150, 40));
+			label1 = new UILabel(new RectangleF(10, 10, 150, 40));
 			label1.Text = "Label 1";
 			label1.HighlightedTextColor = label1.TextColor;
 			this.Add(label1);
-			label2 = new UILabel(new RectangleF(150, 50, 440, 40));
+			label2 = new UILabel(new RectangleF(150, 10, 440, 40));
 			label2.HighlightedTextColor = label2.TextColor;
 			label2.Text = "Label 2";
 			this.Add(label2);
